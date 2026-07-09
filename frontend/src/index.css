@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-950 text-slate-50 min-h-screen font-sans;
+}
+
+.glass {
+  @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-xl;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent;
+}
+
+.btn-primary {
+  @apply px-6 py-2 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 rounded-lg font-semibold transition-all shadow-lg hover:shadow-blue-500/20 active:scale-95;
+}
+
+.input-field {
+  @apply w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition-all;
+}
